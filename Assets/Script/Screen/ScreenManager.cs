@@ -13,7 +13,6 @@ namespace Screens
 
         private ScreenBase _currentScreen;
 
-      
         private void Start()
         {
             HideAll();

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ButtonStartGame : MonoBehaviour
 {
-    public ParticleSystem particleSystem;
+    public ParticleSystem particleSystems;
     public void Onclick()
     {
-        particleSystem.Play();
+        particleSystems.Play();
     }
 }
